@@ -11,8 +11,10 @@ module.exports = async (args) => {
 
     spinner.stop()
 
-    console.log(`\n\t${weather.title}\n       ----------------------------------------------`)
-    console.log(`\t${weather.condition.temp}° ${weather.condition.text}, ${weather.condition.date}\n`)
+    console.log(`\n\t\tForecast for ${location}:`)
+      console.log(`\t    date    | Low | High | weather `)
+    weather.forecast.forEach(item =>
+      console.log(`\t${item.date} | ${item.low}° |  ${item.high}° | ${item.text}`))
   } catch (err) {
     spinner.stop()
 
