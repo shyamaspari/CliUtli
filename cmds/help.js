@@ -4,8 +4,8 @@ const menus = {
 
     today .............. show weather for today
     version ............ show package version
-    version ............ show package version
     help ............... show help menu for a command
+    stocks ............... show  current prise of the stock
     `,
 
   today: `
@@ -14,6 +14,11 @@ const menus = {
     --location, -l ..... the location to use
     `,
 
+    stocks: `
+      cliutil today <options>
+
+      --stocks, -s ..... the stock name
+      `,
     forecast: `
     outside forecast <options>
 
