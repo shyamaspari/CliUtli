@@ -1,0 +1,37 @@
+{
+  "name": "cliutli",
+  "version": "0.0.1",
+  "description": "CliUtil is java script cli framwork which used to create commands for day to day task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyamaspari/CliUtli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "CLI",
+    "day_to_day",
+    "task"
+  ],
+  "author": "shyam pasupula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shyamaspari/CliUtli/issues"
+  },
+  "homepage": "https://github.com/shyamaspari/CliUtli#readme",
+  "bin": {
+    "outside": "bin/cliutil.bat"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
+  }
+}
