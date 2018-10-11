@@ -26,6 +26,10 @@ module.exports = () => {
          require('./cmds/stocks')(args)
          break
 
+    case 'jobs':
+      require('./cmds/jobs')(args)
+      break
+
    case 'help':
             require('./cmds/help')(args)
             break
