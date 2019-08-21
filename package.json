@@ -1,6 +1,6 @@
 {
   "name": "cliutil-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CliUtil is java script cli framwork which used to create commands for day to day task",
   "main": "index.js",
   "scripts": {},
